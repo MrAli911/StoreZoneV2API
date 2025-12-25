@@ -1,0 +1,6 @@
+@StoreZoneV2API_HostAddress = http://localhost:5033
+
+GET {{StoreZoneV2API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
