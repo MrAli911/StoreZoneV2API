@@ -1,0 +1,22 @@
+﻿@using StoreZoneV2API.Domain
+@model IEnumerable<StoreZoneV2API.Domain.Entities.Product>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    @if (!Model.Any())
+    {
+        <p class="text-bg-danger "> <i class="bi b"></i>Not Found any Product</p>
+    }
+    @foreach (var product in Model)
+    {
+        @*<div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="@product.ImageUrl" alt="@product.Name" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                    <h5 class="card-title>
+                    </h5>
+                    <p class="card-text">@product.Name</p>*@
+    }
+</div>
