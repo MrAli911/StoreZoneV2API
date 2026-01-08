@@ -15,6 +15,7 @@ namespace StoreZoneV2API.WebApp.Controllers
         // add a new line in 10:14 AM in starday in saturday branch at 11:05 AM
         // add a new line in 10:14 AM in starday in saturday branch at 11:52 AM
         // add new command in 4:58 PM in Thursday branch for at 9:53 AM
+        // add new command in 4:58 PM in wednesday branch for testing git fetch
 
         private readonly ProductService _productService;
         public HomeController(ProductService productService)
